@@ -34,4 +34,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.7.2'
+    implementation("com.squareup.moshi:moshi:1.9.2")
+    api 'com.google.dagger:dagger-android:2.25.4'
+    api 'com.google.dagger:dagger-android-support:2.25.4' // if you use the support libraries
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.25.4'
+
 }
