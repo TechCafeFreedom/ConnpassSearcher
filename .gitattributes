@@ -1,5 +1,5 @@
 *        text=auto
-*.text   text
+*.txt    text
 *.kt     text eol=lf
 *.xml    text eol=lf
 *.png    -text
