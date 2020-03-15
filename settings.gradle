@@ -1,4 +1,3 @@
 rootProject.name='ConnpasSearcher'
 include ':app'
-include ':buildsrc'
-include ':features'
+include ':buildSrc'
